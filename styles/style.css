@@ -7,15 +7,15 @@
 }
 body    {
     font-family: var(--default-font-family);
+    text-align: center;
+
 }
 h1, h2, h3, h4, h5, h6 {
    font-family: var(--heading-font-family);
-   font-weight: bold;
-   color: #272142;;
+   font-weight: bold
 }
 h1 {
     font-size: 96px;
-     color: var(--secondary-color);
 }
 footer {
     background-color: var(--accent-color);
@@ -42,19 +42,27 @@ strong {
 }
 .me {
     background: var(--branding-color);
-    text-align: center;
     padding: 160px 20px;
+}
+.about {
+    background-color: var(--accent-color);
+    color: var(--branding-color);
+}
+.about h2 {
+    font: 24px;
+    text-align: center;
+}
+.about-me h1 {
+    color: var(--branding-color);
 }
 .btn {
    display: inline-block;
    font-weight: 400;
    line-height: 1.5;
-   color:#272142;
    text-align: center;
    text-decoration: none;
    vertical-align: middle;
    cursor: pointer;
-    
 }
 .btn-branding-outline {
     border-radius: 4px;
@@ -63,4 +71,12 @@ strong {
     font-size: 18px;
     padding: 15px 30px;
     line-height: 27px;
+}
+.btn-branding-contact {
+    background-color: var(--branding-color);
+    color: var(--secondary-color);
+    font-size: 18px;
+    padding: 15px 30px;
+    line-height: 27px;
+    border-radius: 4px;
 }
