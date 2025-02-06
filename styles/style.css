@@ -15,6 +15,12 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 96px;
 }
+footer {
+    background-color: var(--secondary-color);
+    color: var(--branding-color);
+    text-align: center;
+    padding: 20px;
+}
 .me p {
     font-size: 36px;
     font-weight: bold;
@@ -31,11 +37,22 @@ h1 {
     text-align: center;
     padding: 160px 20px;
 }
-.btn-branding {
-    background-color:#6c63ff;
+.btn {
+   display: inline-block;
+   font-weight: 400;
+   line-height: 1.5;
+   color:#272142;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+   cursor: pointer;
+    
+}
+.btn-branding-outline {
     border-radius: 4px;
-    color: white;
+    background-color:var(--secondary-color);
+    color: var(--branding-color);
     font-size: 18px;
     padding: 15px 30px;
-    line-height: 2;
+    line-height: 27px;
 }
