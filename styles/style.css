@@ -74,9 +74,16 @@ strong {
 }
 .btn-branding-contact {
     background-color: var(--branding-color);
+    border-color: var(--secondary-color);
     color: var(--secondary-color);
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 20px 30px;
     line-height: 27px;
     border-radius: 4px;
+}
+.email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-size: 24px;
 }
