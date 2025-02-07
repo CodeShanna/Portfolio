@@ -87,6 +87,7 @@ strong {
 .btn-branding-outline:hover {
 background-color: var(--accent-color);
 opacity: 75%;
+transition: all 100ms ease-in-out;
 }
 .email-link {
     display: flex;
