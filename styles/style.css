@@ -28,18 +28,18 @@ strong {
 .link strong {
     text-decoration: currentColor;
 }
-.me p {
+.container-brand p {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
     color: var(--secondary-color);
 }
-.me h2 {
+.container-brand h2 {
     font-size: 24px;
     font-weight: normal;
     line-height: 2;
 }
-.me {
+.container-brand {
     background: var(--branding-color);
     padding: 160px 20px;
 }
@@ -105,3 +105,9 @@ opacity: 75%;
        
     }
 }
+.socials {
+    color:#E6E6DD;
+    text-decoration: none;
+    font-family: var(--heading-font-family);
+}
+
