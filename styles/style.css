@@ -16,6 +16,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 96px;
 }
+h4 {
+    font-size: 48px;
+}
 footer {
     background-color: var(--accent-color);
     color: var(--branding-color);
@@ -24,9 +27,6 @@ footer {
 }
 strong {
     color: var(--branding-color);
-}
-.link strong {
-    text-decoration: currentColor;
 }
 .container-brand p {
     font-size: 36px;
@@ -104,17 +104,37 @@ strong {
     margin-bottom: 20px;
     border-radius: 4px;
 }
+.link {
+    text-decoration: none;
+}
 .socials {
     background-color:var(--accent-color); 
     color: var(--secondary-color);
     text-decoration: none;
     font-family: var(--heading-font-family);
 }
+.contact-box {
+    background: var(--branding-color);
+    color: var(--secondary-color);
+    justify-content:space-between;
+    padding: 30px 60px;
+    border-radius: 4px;
+    max-width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.contact-box p {
+    margin: none;
+    text-align: left;
+}
+
 @media (max-width: 800px) {
     h1 {
         font-size: 60px;
-       
+    }
+    .contact-box {
+        display: none;
     }
 }
-
 
