@@ -84,6 +84,10 @@ strong {
     line-height: 27px;
     border-radius: 4px;
 }
+.btn-branding-outline:hover {
+background-color: var(--accent-color);
+opacity: 75%;
+}
 .email-link {
     display: flex;
     justify-content: center;
