@@ -85,20 +85,30 @@ strong {
     border-radius: 4px;
 }
 .btn-branding-outline:hover {
-background-color: var(--accent-color);
-opacity: 75%;
-transition: all 100ms ease-in-out;
+    background-color: var(--accent-color);
+    opacity: 75%;
+    transition: all 100ms ease-in-out;
 }
 .email-link {
     display: flex;
     justify-content: center;
     color: var(--secondary-color);
     font-size: 20px;
+    text-decoration: none;
+}
+.email-link:hover {
+    cursor: pointer;
 }
 .headshot {
     max-width: 75%;
     margin-bottom: 20px;
     border-radius: 4px;
+}
+.socials {
+    background-color:var(--accent-color); 
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: var(--heading-font-family);
 }
 @media (max-width: 800px) {
     h1 {
@@ -106,9 +116,5 @@ transition: all 100ms ease-in-out;
        
     }
 }
-.socials {
-    color:#E6E6DD;
-    text-decoration: none;
-    font-family: var(--heading-font-family);
-}
+
 
