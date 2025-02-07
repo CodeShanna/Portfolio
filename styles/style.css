@@ -55,6 +55,11 @@ strong {
 .about-me h1 {
     color: var(--branding-color);
 }
+.about-me-content {
+    display: block;
+    margin: 0 auto;
+   
+}
 .btn {
    display: inline-block;
    font-weight: 400;
@@ -85,5 +90,10 @@ strong {
     display: flex;
     justify-content: center;
     color: var(--secondary-color);
-    font-size: 24px;
+    font-size: 20px;
+}
+.headshot {
+    max-width: 75%;
+    margin-bottom: 20px;
+    border-radius: 4px;
 }
