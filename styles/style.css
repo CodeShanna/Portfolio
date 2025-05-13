@@ -19,6 +19,12 @@ h1 {
 h4 {
     font-size: 48px;
 }
+.email {
+     font-family: var(--default-font-family);
+     color: #005792;
+     font-size: 14px;
+}
+
 footer {
     background-color: var(--accent-color);
     color: var(--branding-color);
@@ -28,6 +34,7 @@ footer {
 strong {
     color: var(--branding-color);
 }
+
 .container-brand p {
     font-size: 36px;
     font-weight: bold;
@@ -41,7 +48,7 @@ strong {
 }
 .container-brand {
     background: var(--branding-color);
-    padding: 160px 20px;
+    padding: 70px 20px;
 }
 .about {
     background-color: var(--accent-color);
@@ -113,28 +120,22 @@ strong {
     text-decoration: none;
     font-family: var(--heading-font-family);
 }
-.contact-box {
-    background: var(--branding-color);
-    color: var(--secondary-color);
-    justify-content:space-between;
-    padding: 30px 60px;
-    border-radius: 4px;
-    max-width: 90%;
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 30px;
+.subheading {
+    font-size: 15px;
+    font-family: var(--heading-font-family);
+    font-weight: 700;   
 }
-.contact-box p {
-    margin: none;
-    text-align: left;
+.resume-container {
+    color:#6C655A;
+    margin-top: 20px;
+
+
 }
 
 @media (max-width: 800px) {
     h1 {
         font-size: 60px;
     }
-    .contact-box {
-        display: none;
-    }
+  
 }
 
